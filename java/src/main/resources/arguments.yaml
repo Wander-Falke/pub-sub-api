@@ -19,7 +19,7 @@ LOGIN_URL: https://wise-panda-8m960m-dev-ed.trailblaze.my.salesforce.com
 # Your Salesforce Username
 USERNAME: 
 # Your Salesforce Password
-PASSWORD: null
+PASSWORD: ${{ vars.USERPASSWORD }}
 # Your Salesforce org Tenant ID
 TENANT_ID: null
 # Your Salesforce Session Token
